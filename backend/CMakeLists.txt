@@ -50,7 +50,7 @@ set(SOURCE_FILES
         src/Box2D/Dynamics/b2World.cpp
         src/Box2D/Dynamics/b2WorldCallbacks.cpp
         src/Box2D/Rope/b2Rope.cpp
-        main.cpp)
+        main.cpp include/blib/polygon/Polygon.hpp include/blib/polygon/Shapes.hpp)
 
 include_directories(include/third_party)
 include_directories($ENV{BLIB_HEADER})
