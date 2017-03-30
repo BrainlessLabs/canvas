@@ -53,6 +53,7 @@ set(SOURCE_FILES
         main.cpp include/blib/polygon/Polygon.hpp include/blib/polygon/Shapes.hpp)
 
 include_directories(include/third_party)
+include_directories(include)
 include_directories($ENV{BLIB_HEADER})
 #include_directories($ENV{THIRD_PARTY_HEADER})
 include_directories($ENV{BOOST_HEADER})

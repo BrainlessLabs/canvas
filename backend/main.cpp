@@ -1,6 +1,7 @@
 #include <iostream>
 #include <Box2D/Box2D.h>
 #include <boost/noncopyable.hpp>
+#include "blib/polygon/Shapes.hpp"
 
 int main() {
 
